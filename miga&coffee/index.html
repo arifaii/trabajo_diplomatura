@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Miga & Coffee, cafetería de especialidad, pastelería artesanal y brunch."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome: solamente para iconografía -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Miga & Coffee</title>
+  </head>
+
+  <body>
+    <!-- header y menú -->
+    <header class="main-header">
+      <nav class="navbar" aria-label="Navegacion principal">
+        <a
+          href="#inicio"
+          class="logo"
+          aria-label="Ir al inicio de Miga & Coffee"
+        >
+          Miga <span>&</span> Coffee
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a href="#inicio">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#productos">Productos</a>
+          </li>
+
+          <li>
+            <a href="#galeria">Galería</a>
+          </li>
+
+          <li>
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--contenido principal-->
+
+    <main class="page-content">
+      <!--seccion hero-->
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+          <p class="hero-label">Café de especialidad · Pastelería · Brunch</p>
+
+          <h1>Miga & Coffee</h1>
+
+          <h2>Café, sabores artesanales y momentos para disfrutar</h2>
+
+          <p class="hero-description">
+            Un espacio cálido donde cada taza y cada receta están preparadaos
+            para acompañar tus mejores momentos.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#productos" class="btn btn-primary">
+              <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+              Ver Productos
+            </a>
+            <a href="#contacto" class="btn btn-secondary">
+              <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+              Reservar una mesa
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-container">
+          <img
+            src="assets/img/hero-cafe.jpg"
+            alt="Mesa servida con café y pastelería artesanal en Miga & Coffee"
+            class="hero-image"
+          />
+        </div>
+      </section>
+
+      <!--seccion de tarjetas-->
+
+      <section id="productos" class="section products-section">
+        <div class="section-heading">
+          <p class="section-label">Nuestros productos</p>
+
+          <h2>Sabores preparados con dedicación</h2>
+
+          <p>
+            Descubrí nuestra selección de cafés de especialidad, pastelería
+            artesanal y opciones de brunch, cada uno elaborado con ingredientes
+            frescos y técnicas cuidadosas para ofrecerte una experiencia única
+            en cada bocado y sorbo.
+          </p>
+        </div>
+
+        <div class="cards-container">
+          <!--tarjeta 1-->
+          <article class="product-card">
+            <img
+              src="assets/img/cafe-especialidad.jpg"
+              alt="Taza de café de especialidad con latte art"
+            />
+            <div class="card-content">
+              <i class="fa-solid fa-mug-hot card-icon" aria-hidden="true"></i>
+
+              <h3>Café de Especialidad</h3>
+
+              <p>
+                Un café de especialidad, preparado con granos de origen único y
+                técnicas de tostado que resaltan sus sabores naturales.
+              </p>
+              <a href="#contacto" class="card-button"> Consultar variedades </a>
+            </div>
+          </article>
+
+          <!--tarjeta 2-->
+
+          <article class="product-card">
+            <img
+              src="assets/img/pasteleria.jpg"
+              alt="Croissants y piezas de pastelería artesanal"
+            />
+            <div class="card-content">
+              <i
+                class="fa-solid fa-cookie-bite card-icon"
+                aria-hidden="true"
+              ></i>
+              <h3>Pastelería Artesanal</h3>
+
+              <p>
+                Cookies, croissants, budines y tortas elaborados diariamente con
+                ingredientes frescos.
+              </p>
+
+              <a href="#galeria" class="card-button"> Ver productos </a>
+            </div>
+          </article>
+
+          <!--tarjeta 3-->
+
+          <article class="product-card">
+            <img
+              src="assets/img/brunch.jpg"
+              alt="Mesa con opciones dulces y saladas de brunch"
+            />
+            <div class="card-content">
+              <i class="fa-solid fa-utensils card-icon" aria-hidden="true"></i>
+
+              <h3>Brunch</h3>
+
+              <p>
+                Opciones dulces y saladas para disfrutar durante la mañana, el
+                mediodía o una tarde especial.
+              </p>
+
+              <a href="#contacto" class="card-button"> Reservar una mesa </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--seccion galeria-->
+
+      <section id="galeria" class="section gallery-section">
+        <div class="section-heading">
+          <p class="section-label">Galería</p>
+
+          <h2>Una experiencia para todos los sentidos</h2>
+
+          <p>
+            Conocé algunos de los sabores y rincones que forman parte de Miga &
+            Coffee
+          </p>
+        </div>
+
+        <div class="gallery-container">
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-1.jpg"
+              alt="Capuccino con diseño de latte art"
+            />
+            <figcaption>Café preparado al momento</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-2.jpg"
+              alt="Cookie artesanal con chips de chocolate"
+            />
+            <figcaption>Cookies recién horneadas</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-3.jpg"
+              alt="Croissants artesanales sobre una bandeja"
+            />
+            <figcaption>Croissants artesanales</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-4.jpg"
+              alt="Tostadas y café servidos para un brunch"
+            />
+            <figcaption>Opciones de brunch</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-5.jpg"
+              alt="Barra interior de Miga & Coffee"
+            />
+            <figcaption>Nuestra barra</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-6.jpg"
+              alt="Porción de torta artesanal decorada"
+            />
+            <figcaption>Tortas para compartir</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-7.jpg"
+              alt="Vaso de café para llevar"
+            />
+            <figcaption>Café para llevar</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="assets/img/galeria-8.jpg"
+              alt="Mesa de cafetería preparada para recibir clientes"
+            />
+            <figcaption>Momentos para disfrutar</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!--seccion contacto-->
+
+      <section id="contacto" class="section contact-section">
+        <div class="contact-container">
+          <div class="contact-information">
+            <p class="section-label">Contacto</p>
+
+            <h2>¿Querés visitarnos?</h2>
+
+            <p>
+              Completá el formulario para hacer una reserva, realizar una
+              consulta o pedir información sobre nuestros productos.
+            </p>
+
+            <address class="contact-details">
+              <p>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+
+                Av. Cabildo 1234, CABA, Argentina
+              </p>
+
+              <p>
+                <i class="fa-solid fa-clock" aria-hidden="true"></i>
+
+                Lunes a domingo de 8:00 a 20:00 hs
+              </p>
+
+              <p>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                contacto@migaandcoffee.com
+              </p>
+
+              <p>
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                +54 11 1234 5678
+              </p>
+            </address>
+          </div>
+
+          <!-- Formulario -->
+
+          <form class="contact-form" action="#" method="post">
+            <!--campo 1: nombre-->
+
+            <div class="form-group">
+              <label for="nombre">Nombre completo</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ingresá tu nombre"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <!--campo 2: email-->
+
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="nombre@email.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <!--campo 3: teléfono-->
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="11 1234-5678"
+                autocomplete="tel"
+                required
+              />
+            </div>
+
+            <!--campo 4: menu desplegable-->
+            <div class="form-group">
+              <label for="motivo">Motivo del contacto</label>
+
+              <select name="motivo" id="motivo" required>
+                <option value="" selected disabled>
+                  Seleccioná una opción
+                </option>
+
+                <option value="reserva">Reserva de mesa</option>
+
+                <option value="productos">Consulta sobre productos</option>
+
+                <option value="evento">Organización de un evento</option>
+
+                <option value="otro">Otro motivo</option>
+              </select>
+            </div>
+
+            <!--campo 5: seleccion unica con radio-->
+            <fieldset class="form-group">
+              <legend>¿Cómo preferís que te contactemos?</legend>
+              <div class="radio-options">
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    name="preferencia-contacto"
+                    value="email"
+                    required
+                  />
+
+                  Por email
+                </label>
+
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    name="preferencia-contacto"
+                    value="telefono"
+                    required
+                  />
+
+                  Por teléfono
+                </label>
+
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    name="preferencia-contacto"
+                    value="whatsapp"
+                    required
+                  />
+
+                  Por WhatsApp
+                </label>
+              </div>
+            </fieldset>
+
+            <!--campo 6: checkbox-->
+            <div class="form-group">
+              <label class="option-label">
+                <input type="checkbox" id="novedades" name="novedades" />
+                Quiero recibir novedades y promociones
+              </label>
+            </div>
+
+            <!--campo 7: comentarios-->
+            <div class="form-group">
+              <label for="comentarios">Comentarios</label>
+
+              <textarea
+                name="comentarios"
+                id="comentarios"
+                rows="6"
+                placeholder="Contanos cómo podemos ayudarte"
+                required
+              ></textarea>
+            </div>
+
+            <!--controles obligatorios-->
+
+            <div class="form-buttons">
+              <button class="button button-primary" type="submit">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+
+                Enviar
+              </button>
+
+              <button class="button button-reset" type="reset">
+                <i class="fa-solid fa-eraser" aria-hidden="true"></i>
+
+                Limpiar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-brand">
+        <a href="#inicio" class="footer-logo"> Miga <span>&</span> Coffee </a>
+
+        <p>Café de especialidad y sabores artesanales.</p>
+      </div>
+
+      <div class="social-links" aria-label="Redes sociales">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram de Miga & Coffee"
+        >
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook de Miga & Coffee"
+        >
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+
+        <a
+          href="https://www.tiktok.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="TikTok de Miga & Coffee"
+        >
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        &copy; 2026 Miga & Coffee. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
